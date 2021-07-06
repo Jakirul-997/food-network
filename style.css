@@ -71,3 +71,22 @@ body {
   padding: 10px 180px;
   border: 0px solid white;
 }
+.flexible-container5 {
+  display: flex;
+}
+.Subs-continer {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 100px 200px 0px 200px;
+}
+.sub-p {
+  font-size: 15px;
+}
+.footer-container {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
