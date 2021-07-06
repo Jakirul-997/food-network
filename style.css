@@ -4,8 +4,6 @@
 }
 body {
   background-color: white;
-  font-size: 50px;
-  border: 35px solid white;
 }
 .flexible-container {
   display: flex;
@@ -21,6 +19,7 @@ body {
   font-size: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: justify;
 }
 
 .link-button {
@@ -64,18 +63,46 @@ body {
   text-align: center;
 }
 
-.flexible-container3 {
-  display: flex;
-  padding-right: 50px;
+.section-3 {
+  width: 100%;
+  height: 700px;
 }
-.imag {
-  display: flex;
-  width: 400px;
-  height: 300px;
-  padding: 50px 100px 0px 130px;
+.section-3 h1 {
+  padding-top: 70px;
+  text-align: center;
+}
 
-  border-image: 50px;
+.box-continer {
+  padding-left: 128px;
+  width: 100%;
 }
+
+.box {
+  width: 25%;
+  height: 450px;
+  float: left;
+  margin-left: 3%;
+  box-shadow: 5px 5px 20px gray;
+  border-radius: 15px;
+}
+
+.box img {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+}
+
+.box h3 {
+  padding-left: 26px;
+  text-align: center;
+}
+
+.box p {
+  padding-left: 25px;
+  color: gray;
+  text-align: center;
+}
+
 .flexible-container4 {
   display: flex;
 }
@@ -86,19 +113,20 @@ body {
 }
 .flexible-container5 {
   display: flex;
-  width-half image
 }
 .Subs-continer {
   font-size: 30px;
   font-weight: bolder;
-  padding: 100px 200px 0px 200px;
+
+  padding-left: 250px;
+  padding-bottom: 50px;
 }
 .sub-p {
   font-size: 15px;
 }
 .footer-container {
   width: 100%;
-  font-size: 50px;
+  font-size: 20px;
   background-color: black;
   color: white;
   text-align: center;
