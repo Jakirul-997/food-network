@@ -4,6 +4,7 @@
 }
 body {
   background-color: white;
+  border: 25px solid white;
 }
 .flexible-container {
   display: flex;
@@ -13,7 +14,7 @@ body {
   width: 50%;
 }
 .width-half h1 {
-  font-size: 80px;
+  font-size: 50px;
 }
 .width-half p {
   font-size: 30px;
@@ -25,22 +26,23 @@ body {
 .link-button {
   font-size: 40px;
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
+  background-image: linear-gradient(rgb(202, 202, 0), rgb(201, 141, 11), gray);
   border-radius: 20px;
   padding-left: 35px;
   padding-right: 35px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: 35px;
   color: white;
 }
 .span-color {
-  color: orange;
+  color: tomato;
 }
 
 .frame1 {
   background-image: url(images/shapes/frame3.png);
   background-repeat: no-repeat;
+  padding-top: 100px;
 }
 .frame2 {
   background-image: url(images/shapes/frame2.png);
@@ -82,7 +84,7 @@ body {
   height: 450px;
   float: left;
   margin-left: 3%;
-  box-shadow: 5px 5px 20px gray;
+  box-shadow: 5px 5px 20px white;
   border-radius: 15px;
 }
 
@@ -90,6 +92,7 @@ body {
   width: 300px;
   height: auto;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .box h3 {
